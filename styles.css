@@ -1,0 +1,195 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Basic Styling */
+body {
+    font-family: 'Amiri', serif; /* Moroccan-inspired font */
+    line-height: 1.6;
+    background-color: #f8f4e6; /* Soft beige background to match Moroccan tones */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d93f3f; /* Rich Moroccan red */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Amiri', serif;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #006d57; /* Moroccan green */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('path/to/moroccan-tiles.jpg'); /* Optional background with Moroccan tile design */
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffbb33; /* Golden color for contrast */
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-top: 5px solid #d93f3f;
+}
+
+#services h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #006d57;
+}
+
+.service-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-image: url('path/to/moroccan-pattern.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #006d57;
+}
+
+.service-card p {
+    font-size: 1rem;
+}
+
+/* Apply Section */
+#apply {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#apply form {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#apply form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+#apply form input, #apply form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#apply form button {
+    background-color: #d93f3f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    background-image: url('path/to/arabesque-pattern.jpg'); /* Add an arabesque design */
+    background-size: cover;
+    background-position: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #006d57;
+}
+
+/* Footer */
+footer {
+    background-color: #006d57; /* Deep Moroccan green */
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
